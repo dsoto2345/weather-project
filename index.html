@@ -4,12 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wetaher app</title>
+    <title>U4B Wetaher App</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>new branch</header>
-    <nav></nav>
-    <main></main>
+    <header>
+      <h1>U4B Weather</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a class="active" href="#home">home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Weather</a></li>
+        <li style="float: right"><a href="#about">About</a></li></a></li>
+      </ul> 
+    </nav>
+    <main>
+      <hr />
+    <section class="weather-section">
+      <div class="page">
+        <h1>LATEST WEATHER</h1>
+        <div class="archive">
+         <article class="article">
+          <section id="stats">
+      <div class="summary">
+        <h2>Weather Summary</h2>
+        <h3 id="five-city"></h3>
+          <p>Currently: <span id="current-desc"></span></p>
+        <p>
+        tempeture:
+        <span id="currently-temp"></span> 57℉
+        </p>
+        <p>Wind Chill: <span id="current-windchill"></span> 50℉</p>
+        <p>Humidity: <span id="current-humid"></span>38%</p>
+        <p>Wind Speed: <span id="current-windspeed"></span> 20mph</p>
+      </div>
+    </section> 
+          <div> 
+           <img src="/weather pics/clear.png" class="weather-icon">  
+         </div>
+        </article>
+        <!-- 5 day forcast -->
+        <div calss="article-five-day">
+          <article id="forcastcontainer">
+            <h2 id="forcastTitle">5 Day Forecast</h2>
+            <h3 id="city">tooele</h3>
+            <div class="flex">
+              <div class="flex-col">
+                <h3>day1</h3>
+                <span class="temp-data"><h4>68℉</h4></span>
+                  <span id="data1"></span>
+                  <span></span>
+                <img src="/weather pics/clear.png" class="weatherIcon" />
+                <h3>day2</h3>
+                <span class="temp-data"><h4>50℉</h4></span>
+                <img src="/weather pics/mist.png" class="weatherIcon" />
+                <h3>day3</h3>
+                <span class="temp-data"><h4>39℉</h4></span>
+                <img src="/weather pics/clouds.png" class="weatherIcon" />
+                <h3>day4</h3>
+                <span class="temp-data"><h4>43℉</h4></span>
+                <img src="/weather pics/rain.png" class="weatherIcon" />
+                <h3>day5</h3>
+                <span class="temp-data"><h4>44℉</h4></span>
+                <img src="/weather pics/mist.png" class="weatherIcon" />
+        </div>
+    <main></main> 
     <footer></footer>
   </body>
 </html>
